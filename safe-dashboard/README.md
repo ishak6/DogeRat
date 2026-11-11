@@ -17,7 +17,7 @@ No device enrollment, device control, Telegram integration, camera/microphone ac
 2. Connect this repository.
 3. Set the Blueprint file path to `safe-dashboard/render.yaml`.
 4. When prompted, set `DASHBOARD_USER` and `DASHBOARD_PASSWORD`. Use a unique password with at least 20 characters. Do not commit secrets to GitHub.
-5. Deploy the Blueprint. Render will build and start only this folder because its service root is configured separately by the Blueprint path's service configuration below.
+5. Deploy the Blueprint. The Blueprint sets the service root directory to `safe-dashboard`, so Render builds and starts only this folder.
 
 ## Run locally
 Use Node.js 20 or later:
