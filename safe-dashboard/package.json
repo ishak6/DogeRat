@@ -1,0 +1,19 @@
+{
+  "name": "dogerat-safe-status-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Isolated, read-only service status dashboard; no device control or data collection.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-basic-auth": "^1.2.1",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0"
+  }
+}
