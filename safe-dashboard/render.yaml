@@ -3,6 +3,7 @@ services:
     name: dogerat-safe-status-dashboard
     runtime: node
     plan: free
+    rootDir: safe-dashboard
     region: singapore
     buildCommand: npm install
     startCommand: npm start
